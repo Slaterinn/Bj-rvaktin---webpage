@@ -3,6 +3,7 @@
 /* styles.css */
 body {
     font-family: 'Lato', sans-serif;
+    background-color: rgba(248,249,250,1);
 }
 
 .display-4 {
@@ -10,6 +11,5 @@ body {
 }
 
 .scroll-target {
-    min-height: 100vh;
-
+    min-height: 100vh;            /* fall-back */
 }
