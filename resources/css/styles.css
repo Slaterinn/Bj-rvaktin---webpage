@@ -16,3 +16,7 @@ body {
 .scroll-target {
     min-height: 100vh;            /* fall-back */
 }
+
+@media screen and (min-width: 480px) {
+    #content-container-1 {padding-top:0}
+}
