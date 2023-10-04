@@ -17,6 +17,6 @@ body {
     min-height: 100vh;            /* fall-back */
 }
 
-@media screen and (max-width: 480px) {
-    #content-container-1 {padding-top:0}
+@media (max-width: 680px) {
+    #content-container-1 {padding-top:0 !important}
 }
